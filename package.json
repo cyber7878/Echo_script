@@ -1,0 +1,10 @@
+{
+  "name": "yuval-fake-demo-package",
+  "version": "1.0.1",
+  "description": "Educational demo package for install-script detection research",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node -e \"const p='SGVsbG8gZnJvbSBlbmNvZGVkIGluc3RhbGwgc2NyaXB0IQ=='; console.log(Buffer.from(p,'base64').toString())\""
+  },
+  "license": "ISC"
+}
