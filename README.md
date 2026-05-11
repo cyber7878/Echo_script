@@ -1,3 +1,5 @@
 # Echo_script
 
-the script is in main 
+
+the "malicious" npm i created to test the script is in the folder
+the script is in main and called "Detect_Install_Scripts_v2"
